@@ -1,0 +1,56 @@
+/* Your CSS styles go here */
+
+body {
+  font-family: Arial, sans-serif;
+  color: #010102;
+  background-color: #faf8f8;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+}
+
+#startButton {
+  margin: 50px auto;
+  display: block;
+}
+
+#questionContainer {
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 600px;
+  border: 5px solid #080707;
+  background-color: #5b1ffd;
+  font-size: 30px;
+  color: #fcf9f9;
+}
+
+#questionContainer button {
+  display: block;
+  margin: 100px 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #297bf7;
+  border: 5px solid #faf9f9;
+  cursor: pointer;
+  font-size: 30px;
+  color: #fcfafa;
+}
+
+#timer {
+  position: absolute;
+  top: 0;
+  right: 15%;
+  transform: translateX(-50%);
+  font-size: 25px;
+  margin-bottom: 50px;
+  color: rgb(1, 7, 7);
+}
+#restartButton {
+  margin: 20px auto;
+  display: block;
+  color: #020101;
+}
+
